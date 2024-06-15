@@ -1,17 +1,36 @@
-# proyect_excuela
+#Documentación del Proyecto Flutter
+Tabla de Contenidos
+Introducción
+Requisitos
+Instalación
+Widgets Personalizados
+Widget de Progreso Interactivo
+Widget de Tarjeta Educativa
+Widget de Quiz Personalizado
 
-A new Flutter project.
+#Introducción
+Este proyecto de Flutter incluye tres widgets personalizados: una barra de progreso interactiva, una tarjeta educativa y un widget de quiz personalizado. Cada widget está diseñado para ser utilizado y personalizado fácilmente en tus propias aplicaciones Flutter.
 
-## Getting Started
+Requisitos
+Flutter SDK
+Dart SDK
+Editor de código (Visual Studio Code, Android Studio, etc.)
+Instalación
 
-This project is a starting point for a Flutter application.
+#Widgets Personalizados
+Widget de Progreso Interactivo
+Archivo: lib/widgets/progress_widget.dart
 
-A few resources to get you started if this is your first Flutter project:
+#Descripción
+El ProgressWidget es una barra de progreso circular interactiva con botones para incrementar y decrementar el progreso.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#Personalización
+Puedes ajustar el valor inicial del progreso y los incrementos/decrementos modificando el ProgressProvider:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Excuela-
+Archivo: lib/providers/progress_provider.dart
+
+#Widget de Tarjeta Educativa
+Archivo: lib/widgets/card_widget.dart
+
+Descripción
+El CardWidget muestra una tarjeta con una imagen, título, descripción y botones interactivos.
